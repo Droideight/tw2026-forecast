@@ -27,6 +27,9 @@ svg{display:block;width:100%;height:auto;margin-top:2px;overflow:visible}
 html,body{overflow-x:hidden}
 .sum .row{flex-wrap:wrap;gap:4px 14px}
 .bar i{min-width:0;font-size:9px;line-height:10px}
+.wrap{max-width:1180px}
+#list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));column-gap:32px;align-content:start}
+.sum{grid-column:1/-1}
 @media (max-width:480px){.race{grid-template-columns:1fr;gap:2px}.county{font-size:15px;display:flex;align-items:baseline;gap:10px}.county .wp{margin-top:0}.names{padding-right:0;font-size:13px}.names .v{font-size:12px}.tag{top:10px;right:10px}}
 </style>
 <div class="wrap">
